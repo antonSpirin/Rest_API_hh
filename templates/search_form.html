@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Parsing-hh.ru</title>
+        <title>Search</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -14,68 +14,60 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="/static/css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="index.html">Home page</a>
+                <a class="navbar-brand" href="/">Home page</a>
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="search_form.html">start search</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="results.html">results</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="contacts.html">Contact US</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/search_form/">start search</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/results/">results</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/contacts/">Contact US</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <
-            </div>
-        </header>
-
-        <!-- Result Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">results</h2>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                </div>
+              <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">start search</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
+                <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!--table - таблица, tr-строка, td-столбец, th-заголовок-->
-                <table class="table">
-                    <tr>
-                        <th>Номер</th>
-                        <th>Название</th>
-                        <th>Описание</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Python developer</td>
-                        <td>Надо прогать на python</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>java developer</td>
-                        <td>Надо прогать на java</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Web Python developer</td>
-                        <td>Надо прогать на python</td>
-                    </tr>
-                </table>
-<!--                -->
-        </section>
+                <!-- Contact Section Form-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
 
-     <!-- Footer-->
+                                <form method="post">
+                                    <input  class="form-control" type="text" placeholder="enter name vacancies" name="input_text">
+                                    <br>
+                            <!--        Enter search parameters-->
+                                    <p>
+                                        <select class="form-control" name="were" id="">
+                                            <option value="all">Еverywhere</option>
+                                            <option value="company">In company name</option>
+                                            <option selected value="name">In job title</option>
+                                        </select>
+                                        <br>
+                                    </p>
+                                    <input class="btn btn-light" type="submit" value="Find vacancies">
+                                <hr>
+                                </form>
+        </header>
+
+      <!-- Footer-->
         <footer class="footer text-center">
             <div class="container">
                 <div class="row">

@@ -14,22 +14,22 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="/static/css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="index.html">Home page</a>
+                <a class="navbar-brand" href="/">Home page</a>
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="search_form.html">start search</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="results.html">results</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="contacts.html">Contact US</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/search_form/">start search</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/results/">results</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/contacts/">Contact US</a></li>
                     </ul>
                 </div>
             </div>
@@ -38,24 +38,45 @@
             </div>
         </header>
 
-        <!-- Contact Section-->
-        <section class="page-section" id="contact">
+        <!-- Result Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact US</h2>
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">results</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom">
+                <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-              <p class="text-center">Phone number: +1858000000
-              <br>E-mail: developer@softwear-company.com<br>
-              Address: 111, Sun St.,Los Angeles, CA</p>
-              </div>
+                <!--table - таблица, tr-строка, td-столбец, th-заголовок-->
 
+                {% if text %}
+                <ul>
+                   <table class="table">
+                    <tr>
+                        <th>Skill name</th>
+                        <th>Count and percent</th>
 
-       <!-- Footer-->
+                    </tr>
+                     {% for item in data%}
+                        <tr>
+                           <td>{{list(item.keys())[0]}}</td>
+                           <td>{{list(item.values())[0]}}</td>
+                        </tr>
+                     {% endfor %}
+                    </table>
+
+                </ul>
+                {% else %}
+                    Что бы получить результаты поиска данных по вакансиям перейдите на страницу
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/search_form/">start search</a></li>
+                {% endif %}
+
+<!--                -->
+        </section>
+
+     <!-- Footer-->
         <footer class="footer text-center">
             <div class="container">
                 <div class="row">
