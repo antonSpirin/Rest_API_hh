@@ -14,22 +14,22 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="/static/css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="index.html">Home page</a>
+                <a class="navbar-brand" href="/">Home page</a>
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="search_form.html">start search</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="results.html">results</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="contacts.html">Contact US</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/search_form/">start search</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/results/">results</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/contacts/">Contact US</a></li>
                     </ul>
                 </div>
             </div>
@@ -50,28 +50,29 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!--table - таблица, tr-строка, td-столбец, th-заголовок-->
-                <table class="table">
+
+                {% if text %}
+                <ul>
+                   <table class="table">
                     <tr>
-                        <th>Номер</th>
-                        <th>Название</th>
-                        <th>Описание</th>
+                        <th>Skill name</th>
+                        <th>Count and percent</th>
+
                     </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Python developer</td>
-                        <td>Надо прогать на python</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>java developer</td>
-                        <td>Надо прогать на java</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Web Python developer</td>
-                        <td>Надо прогать на python</td>
-                    </tr>
-                </table>
+                     {% for item in data%}
+                        <tr>
+                           <td>{{list(item.keys())[0]}}</td>
+                           <td>{{list(item.values())[0]}}</td>
+                        </tr>
+                     {% endfor %}
+                    </table>
+
+                </ul>
+                {% else %}
+                    Что бы получить результаты поиска данных по вакансиям перейдите на страницу
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/search_form/">start search</a></li>
+                {% endif %}
+
 <!--                -->
         </section>
 
