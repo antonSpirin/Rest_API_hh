@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Parsing-hh.ru</title>
+        <title>Results</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -50,19 +50,19 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!--table - таблица, tr-строка, td-столбец, th-заголовок-->
-
+                <h4 class="text-center text-uppercase mb-4">statistics skills for a {{text}}</h4>
                 {% if text %}
                 <ul>
                    <table class="table">
                     <tr>
-                        <th>Skill name</th>
-                        <th>Count and percent</th>
+                        <th class="text-uppercase">Skill name</th>
+                        <th class="text-uppercase">Statistics</th>
 
                     </tr>
                      {% for item in data%}
                         <tr>
-                           <td>{{list(item.keys())[0]}}</td>
-                           <td>{{list(item.values())[0]}}</td>
+                           <td>{{item[0]}}</td>
+                           <td>{{item[1]}}</td>
                         </tr>
                      {% endfor %}
                     </table>
@@ -72,6 +72,7 @@
                     Что бы получить результаты поиска данных по вакансиям перейдите на страницу
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/search_form/">start search</a></li>
                 {% endif %}
+            </div>
 
 <!--                -->
         </section>

@@ -2,6 +2,7 @@ import requests
 from collections import Counter
 import os
 from datetime import datetime
+import sqlite3
 
 
 def getPage(page, url, name_vacancies):
@@ -47,16 +48,100 @@ def skills_statistic(list_key_skills):
     list_statistic_skills = []
     for count in range(len(list_sort_key)):
         dict_skills = {}
-        value = f'count:{value_sort_skills[count]}, percent:{int(value_sort_skills[count] * 100 / count_skills)}%'
-        dict_skills = {list_sort_key[count]: value}
-        list_statistic_skills.append(dict_skills)
+        # value = f'count:{value_sort_skills[count]}, percent:{int(value_sort_skills[count] * 100 / count_skills)}%'
+        # dict_skills = {list_sort_key[count]: value}
+        interest = int(value_sort_skills[count] * 100 / count_skills)
+        # dict_skills = {list_sort_key[count]: value}
+        skills_tuple = (list_sort_key[count], interest)
+        list_statistic_skills.append(skills_tuple)
     return list_statistic_skills
 
-def check_time_delta(file_name):
-    create_file_time = os.path.getmtime(file_name)
-    formatted_time = datetime.fromtimestamp(create_file_time)
-    dt_mow = datetime.now()
-    delta = (dt_mow - formatted_time).days
-    return delta
+
+def check_time_delta(select_date_create):
+    delta = 0
+    if select_date_create:
+        time_create_records = select_date_create[0][0]
+        dt_mow = datetime.now()
+        delta = (dt_mow - time_create_records).days
+        return delta
+    else:
+        return delta
 
 
+def create_data_base(name_db):
+    try:
+        connection = sqlite3.connect(name_db, detect_types=sqlite3.PARSE_DECLTYPES |
+                                                           sqlite3.PARSE_COLNAMES)
+        cursor = connection.cursor()
+        print("База данных создана и успешно подключена к SQLite")
+    except sqlite3.Error as error:
+        print("Ошибка при подключении к sqlite", error)
+    finally:
+        if (connection):
+            connection.close()
+            print("Соединение с SQLite закрыто")
+
+
+def create_table_sqlite(name_db, query):
+    try:
+        connection = sqlite3.connect(name_db, detect_types=sqlite3.PARSE_DECLTYPES |
+                                                           sqlite3.PARSE_COLNAMES)
+        sqlite_create_table_query = query
+        cursor = connection.cursor()
+        print("База данных подключена к SQLite")
+        cursor.execute(sqlite_create_table_query)
+        connection.commit()
+        print("Таблица SQLite создана")
+        cursor.close()
+    except sqlite3.Error as error:
+        print("Ошибка при подключении к sqlite", error)
+    finally:
+        if (connection):
+            connection.close()
+            print("Соединение с SQLite закрыто")
+
+
+def insert_date_table(name_db, query, data):
+    try:
+        connection = sqlite3.connect(name_db, detect_types=sqlite3.PARSE_DECLTYPES |
+                                                           sqlite3.PARSE_COLNAMES)
+        cursor = connection.cursor()
+        print("Подключен к SQLite")
+        sqlite_insert_with_param = query
+        data_tuple = data
+        if len(data) > 1:
+            cursor.executemany(sqlite_insert_with_param, data_tuple)
+        else:
+            cursor.execute(sqlite_insert_with_param, data_tuple)
+        connection.commit()
+        print("Переменные Python успешно вставлены в таблицу")
+        cursor.close()
+    except sqlite3.Error as error:
+        print("Ошибка при работе с SQLite", error)
+    finally:
+        if connection:
+            connection.close()
+            print("Соединение с SQLite закрыто")
+
+
+def read_date_table(name_db, query, param='N/A'):
+    try:
+        sqlite_connection = sqlite3.connect(name_db, detect_types=sqlite3.PARSE_DECLTYPES |
+                                                                  sqlite3.PARSE_COLNAMES)
+        cursor = sqlite_connection.cursor()
+        print("Подключен к SQLite")
+        sqlite_select_query = query
+        if param != 'N/A':
+            cursor.execute(sqlite_select_query, param)
+        else:
+            cursor.execute(sqlite_select_query)
+        records = cursor.fetchall()
+        cursor.close()
+
+    except sqlite3.Error as error:
+        print("Ошибка при работе с SQLite", error)
+    finally:
+        if sqlite_connection:
+            sqlite_connection.close()
+            print("Соединение с SQLite закрыто")
+    return records
