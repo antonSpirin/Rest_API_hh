@@ -1,605 +1,491 @@
 [
   {
-    "Python": "count:98, percent:48%"
+    "SOAP": 20
   },
   {
-    "\u041e\u041e\u041f": "count:41, percent:20%"
+    "REST": 19
   },
   {
-    "Git": "count:39, percent:19%"
+    "XML": 19
   },
   {
-    "Django Framework": "count:34, percent:16%"
+    "SQL": 15
   },
   {
-    "SQL": "count:34, percent:16%"
+    "JSON API": 12
   },
   {
-    "HTML": "count:32, percent:15%"
+    "Scrum": 12
   },
   {
-    "JS": "count:24, percent:11%"
+    "SOAP UI": 11
   },
   {
-    "scrappy": "count:15, percent:7%"
+    "MS SQL": 11
   },
   {
-    "MySQL": "count:15, percent:7%"
+    "REST API": 10
   },
   {
-    "\u0410\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a": "count:13, percent:6%"
+    "HTTP": 9
   },
   {
-    "amoCRM": "count:12, percent:5%"
+    "QA": 8
   },
   {
-    "REST": "count:11, percent:5%"
+    "Swagger": 6
   },
   {
-    "Linux": "count:9, percent:4%"
+    "API": 6
   },
   {
-    "Docker": "count:8, percent:3%"
+    "Android": 6
   },
   {
-    "PostgreSQL": "count:8, percent:3%"
+    "\u0420\u0435\u0433\u0440\u0435\u0441\u0441\u0438\u043e\u043d\u043d\u043e\u0435 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435": 5
   },
   {
-    "API": "count:7, percent:3%"
+    "Test case": 5
   },
   {
-    "Flask": "count:6, percent:2%"
+    "Python": 5
   },
   {
-    "REST API": "count:6, percent:2%"
+    "\u0422\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u043e\u0433\u043e \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0430": 4
   },
   {
-    "ActiveMQ": "count:5, percent:2%"
+    "\u0410\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043c\u044b\u0448\u043b\u0435\u043d\u0438\u0435": 4
   },
   {
-    "Kafka": "count:5, percent:2%"
+    "Git": 4
   },
   {
-    "ORACLE": "count:5, percent:2%"
+    "\u0422\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435": 4
   },
   {
-    "Redis": "count:5, percent:2%"
+    "\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f": 4
   },
   {
-    "BPMN": "count:4, percent:1%"
+    "Soft skills": 3
   },
   {
-    "Kubernetes": "count:4, percent:1%"
+    "\u041b\u0438\u0434\u0435\u0440\u0441\u043a\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430": 3
   },
   {
-    "ElasticSearch": "count:4, percent:1%"
+    "\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e\u043c": 3
   },
   {
-    "Apache Airflow": "count:4, percent:1%"
+    "Atlassian Confluence": 3
   },
   {
-    "Java": "count:4, percent:1%"
+    "Postman": 3
   },
   {
-    "Bash": "count:4, percent:1%"
+    "\u0420\u0443\u0447\u043d\u043e\u0435 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435": 3
   },
   {
-    "Nginx": "count:4, percent:1%"
+    "\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0435 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435": 3
   },
   {
-    "\u0423\u0434\u0430\u043b\u0435\u043d\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430": "count:4, percent:1%"
+    "\u0418\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435": 3
   },
   {
-    "Firebase": "count:4, percent:1%"
+    "Atlassian Jira": 3
   },
   {
-    "Django Rest Framework": "count:4, percent:1%"
+    "Android Studio": 2
   },
   {
-    "Databases": "count:4, percent:1%"
+    "Charles": 2
   },
   {
-    "Backend": "count:4, percent:1%"
+    "Fiddler": 2
   },
   {
-    "Docker-compose": "count:3, percent:1%"
+    "Docker": 1
   },
   {
-    "Celery": "count:3, percent:1%"
+    "HTTPTookit": 1
   },
   {
-    "\u041e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u044f \u043a\u043e\u0434\u0430": "count:3, percent:1%"
+    "Java": 1
   },
   {
-    "Django": "count:3, percent:1%"
+    "Camunda": 1
   },
   {
-    "\u041a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0431\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c, \u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0441\u0442\u044c": "count:3, percent:1%"
+    "\u041d\u0430\u0433\u0440\u0443\u0437\u043e\u0447\u043d\u043e\u0435 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435": 1
   },
   {
-    "\u041e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0441\u0442\u044c \u0438 \u043f\u0443\u043d\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u044c": "count:3, percent:1%"
+    "\u0410\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a (\u043f\u0440\u043e\u0434\u0432\u0438\u043d\u0443\u0442\u044b\u0439)": 1
   },
   {
-    "\u0423\u043c\u0435\u043d\u0438\u0435 \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u0432 \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u0445 \u043c\u043d\u043e\u0433\u043e\u0437\u0430\u0434\u0430\u0447\u043d\u043e\u0441\u0442\u0438": "count:3, percent:1%"
+    "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u043e\u0435 \u043c\u044b\u0448\u043b\u0435\u043d\u0438\u0435": 1
   },
   {
-    "\u0420\u0430\u0431\u043e\u0442\u0430 \u0432 \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u0445 \u043c\u043d\u043e\u0433\u043e\u0437\u0430\u0434\u0430\u0447\u043d\u043e\u0441\u0442\u0438": "count:3, percent:1%"
+    "\u0420\u0430\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u043f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043e\u0432": 1
   },
   {
-    "\u0420\u0430\u0431\u043e\u0442\u0430 \u0432 \u043a\u043e\u043c\u0430\u043d\u0434\u0435": "count:3, percent:1%"
+    "\u0412\u044b\u0441\u043e\u043a\u0438\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u0441\u0430\u043c\u043e\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438": 1
   },
   {
-    "aiogram": "count:3, percent:1%"
+    "\u0420\u0430\u0431\u043e\u0442\u0430 \u0432 \u043a\u043e\u043c\u0430\u043d\u0434\u0435": 1
   },
   {
-    "aiohttp": "count:3, percent:1%"
+    "\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f": 1
   },
   {
-    "trio": "count:3, percent:1%"
+    "JavaScript": 1
   },
   {
-    "DRF": "count:2, percent:0%"
+    "React": 1
   },
   {
-    "Unit Testing": "count:2, percent:0%"
+    "Typescript": 1
   },
   {
-    "ORM": "count:2, percent:0%"
+    "CSS": 1
   },
   {
-    "\u0411\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445": "count:2, percent:0%"
+    "JS": 1
   },
   {
-    "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 \u0431\u0430\u0437\u0430\u043c\u0438 \u0434\u0430\u043d\u043d\u044b\u0445": "count:2, percent:0%"
+    "\u041f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0439": 1
   },
   {
-    "\u0410\u043d\u0430\u043b\u0438\u0437 \u0434\u0430\u043d\u043d\u044b\u0445": "count:2, percent:0%"
+    "Bug Tracking Systems": 1
   },
   {
-    "\u041f\u0430\u0440\u0441\u0438\u043d\u0433": "count:2, percent:0%"
+    "Manual testing": 1
   },
   {
-    "Backend \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a": "count:2, percent:0%"
+    "ADB": 1
   },
   {
-    "SQL \u0431\u0430\u0437\u0430\u043c\u0438 \u0434\u0430\u043d\u043d\u044b\u0445": "count:2, percent:0%"
+    "\u0410\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a": 1
   },
   {
-    "GitLab": "count:2, percent:0%"
+    "Redmine": 1
   },
   {
-    "CockroachDB": "count:2, percent:0%"
+    "Linux": 1
   },
   {
-    "Jira": "count:2, percent:0%"
+    "iOS": 1
   },
   {
-    "MS Excel": "count:2, percent:0%"
+    "Unity": 1
   },
   {
-    "CI/CD": "count:2, percent:0%"
+    "Check-list": 1
   },
   {
-    "Teamleading": "count:2, percent:0%"
+    "Bug Reporting": 0
   },
   {
-    "Atlassian Jira": "count:2, percent:0%"
+    "Cucumber": 0
   },
   {
-    "Microservices": "count:2, percent:0%"
+    "MongoDB": 0
   },
   {
-    "OOP": "count:2, percent:0%"
+    "\u0422\u0435\u043e\u0440\u0438\u044f \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f": 0
   },
   {
-    "MS SQL": "count:2, percent:0%"
+    "\u0422\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 API": 0
   },
   {
-    "Python3": "count:2, percent:0%"
+    "Jira": 0
   },
   {
-    "django": "count:1, percent:0%"
+    "TMS": 0
   },
   {
-    "fastapi": "count:1, percent:0%"
+    "JSON": 0
   },
   {
-    "PosgresSQL": "count:1, percent:0%"
+    "\u0420\u0435\u0433\u0440\u0435\u0441c\u0438\u043e\u043d\u043d\u043e\u0435 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435": 0
   },
   {
-    "Fast API": "count:1, percent:0%"
+    "\u0421\u0423\u0411\u0414": 0
   },
   {
-    "Matplotlib": "count:1, percent:0%"
+    "MySQL": 0
   },
   {
-    "Numpy": "count:1, percent:0%"
+    "Node.js": 0
   },
   {
-    "SciPy": "count:1, percent:0%"
+    "QA Engineer": 0
   },
   {
-    "Abaqus": "count:1, percent:0%"
+    "ClickHouse": 0
   },
   {
-    "ANSYS": "count:1, percent:0%"
+    "PHP (legacy \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430)": 0
   },
   {
-    "PLAXIS": "count:1, percent:0%"
+    "MySQL (Percona)": 0
   },
   {
-    "\u0423\u043c\u0435\u043d\u0438\u0435 \u043e\u0431\u0449\u0430\u0442\u044c\u0441\u044f \u0441 \u043b\u044e\u0434\u044c\u043c\u0438": "count:1, percent:0%"
+    "Elasticsearch": 0
   },
   {
-    "\u0423\u043c\u0435\u043d\u0438\u0435 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u043c\u044b\u0441\u043b\u0438\u0442\u044c": "count:1, percent:0%"
+    "NuxtJS (Vue)": 0
   },
   {
-    "\u0421\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043c\u044b\u0448\u043b\u0435\u043d\u0438\u0435": "count:1, percent:0%"
+    "docker": 0
   },
   {
-    "\u0412\u044b\u0441\u043e\u043a\u0430\u044f \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u044c \u0440\u0430\u0431\u043e\u0442\u044b": "count:1, percent:0%"
+    "kibana": 0
   },
   {
-    "\u0423\u043c\u0435\u043d\u0438\u0435 \u0430\u0434\u0430\u043f\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c\u0441\u044f": "count:1, percent:0%"
+    "postman": 0
   },
   {
-    "\u041a\u043e\u043c\u0430\u043d\u0434\u043e\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435": "count:1, percent:0%"
+    "Windows": 0
   },
   {
-    "\u041e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u044f \u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432": "count:1, percent:0%"
+    "\u0412\u0438\u0440\u0442\u0443\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f": 0
   },
   {
-    "RabbitMQ": "count:1, percent:0%"
+    "\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u043e\u0439": 0
   },
   {
-    "NoSQL": "count:1, percent:0%"
+    "Playwright": 0
   },
   {
-    "\u0423\u043c\u0435\u043d\u0438\u0435 \u0434\u043e\u0433\u043e\u0432\u0430\u0440\u0438\u0432\u0430\u0442\u044c\u0441\u044f": "count:1, percent:0%"
+    "TypeScript": 0
   },
   {
-    "\u041d\u0430\u0446\u0435\u043b\u0435\u043d \u043d\u0430 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442": "count:1, percent:0%"
+    "Gamedev": 0
   },
   {
-    "Gitlab CI": "count:1, percent:0%"
+    "\u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0439 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u043e\u0432": 0
   },
   {
-    "FastAPI": "count:1, percent:0%"
+    "\u0440\u0435\u0433\u0440\u0435\u0441\u0441\u0438\u0432\u043d\u043e\u0435 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435": 0
   },
   {
-    "C/C++": "count:1, percent:0%"
+    "\u041c\u043e\u0434\u0443\u043b\u044c\u043d\u043e\u0435 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435": 0
   },
   {
-    "Python 2": "count:1, percent:0%"
+    "Confluence": 0
   },
   {
-    "Python 3": "count:1, percent:0%"
+    "Selenium": 0
   },
   {
-    "ARM": "count:1, percent:0%"
+    "\u0410\u043d\u0430\u043b\u0438\u0437 \u0434\u0430\u043d\u043d\u044b\u0445": 0
   },
   {
-    "\u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u0431\u043e\u0440\u0430 \u0434\u0430\u043d\u043d\u044b\u0445": "count:1, percent:0%"
+    "PowerBI": 0
   },
   {
-    "embedded": "count:1, percent:0%"
+    "\u0412\u0438\u0437\u0443\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445": 0
   },
   {
-    "JavaScript": "count:1, percent:0%"
+    "\u0410\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f": 0
   },
   {
-    "Android": "count:1, percent:0%"
+    "Data Science": 0
   },
   {
-    "Kotlin": "count:1, percent:0%"
+    "Data Analysis": 0
   },
   {
-    "\u041c\u043e\u0442\u0438\u0432\u0430\u0446\u0438\u044f": "count:1, percent:0%"
+    "Jenkins": 0
   },
   {
-    "Scrum": "count:1, percent:0%"
+    "Jmeter": 0
   },
   {
-    "DWH": "count:1, percent:0%"
+    "\u0420\u0435\u0433\u0440\u0435\u0441\u0438\u043e\u043d\u043d\u043e\u0435 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435": 0
   },
   {
-    "CRM": "count:1, percent:0%"
+    "\u0422\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439": 0
   },
   {
-    "ERP": "count:1, percent:0%"
+    "Smoke test": 0
   },
   {
-    "ETL": "count:1, percent:0%"
+    "\u0420\u0435\u0433\u0440\u0435\u0441\u0441\u0438\u0432\u043d\u043e\u0435 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435": 0
   },
   {
-    "PowerBI": "count:1, percent:0%"
+    "WEB": 0
   },
   {
-    "Sqlalchemy": "count:1, percent:0%"
+    "charles": 0
   },
   {
-    "Spark": "count:1, percent:0%"
+    "kafka": 0
   },
   {
-    "Pandas": "count:1, percent:0%"
+    "Pytest": 0
   },
   {
-    "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 \u0431\u043e\u043b\u044c\u0448\u0438\u043c \u043e\u0431\u044a\u0435\u043c\u043e\u043c \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438": "count:1, percent:0%"
+    "HTML": 0
   },
   {
-    "Django REST": "count:1, percent:0%"
+    "\u0411\u0430\u0437\u043e\u0432\u044b\u0435 \u0437\u043d\u0430\u043d\u0438\u044f SQL": 0
   },
   {
-    "Sentry": "count:1, percent:0%"
+    "Gitlab": 0
   },
   {
-    "VBA": "count:1, percent:0%"
+    "Black box testing": 0
   },
   {
-    "ClickHouse": "count:1, percent:0%"
+    "k8s": 0
   },
   {
-    "GraphQL": "count:1, percent:0%"
+    "TCP/IP": 0
   },
   {
-    "C++": "count:1, percent:0%"
+    "SoapUI": 0
   },
   {
-    "\u0410\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u0438 \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u044b \u0434\u0430\u043d\u043d\u044b\u0445": "count:1, percent:0%"
+    "Kafka": 0
   },
   {
-    "MariaDB": "count:1, percent:0%"
+    "RabbitMQ": 0
   },
   {
-    "ML": "count:1, percent:0%"
+    "influxdb": 0
   },
   {
-    "Machine learning": "count:1, percent:0%"
+    "Zabbix": 0
   },
   {
-    "MongoDB": "count:1, percent:0%"
+    "Prometheus": 0
   },
   {
-    "TDD": "count:1, percent:0%"
+    "Grafana": 0
   },
   {
-    "SOLID": "count:1, percent:0%"
+    "Kibana": 0
   },
   {
-    "asyncio": "count:1, percent:0%"
+    "smartphone testing": 0
   },
   {
-    "\u0410\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u0435 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0431\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445": "count:1, percent:0%"
+    "Beta-\u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f": 0
   },
   {
-    "\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0432": "count:1, percent:0%"
+    "MS Excel": 0
   },
   {
-    "XML": "count:1, percent:0%"
+    "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u041f\u041a": 0
   },
   {
-    "JSON API": "count:1, percent:0%"
+    "Manual QA": 0
   },
   {
-    "AWS": "count:1, percent:0%"
+    "\u0422\u0435\u0441\u0442\u043e\u0432\u0430\u044f \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u044f": 0
   },
   {
-    "ChatGPT": "count:1, percent:0%"
+    "TestRail": 0
   },
   {
-    "LLM": "count:1, percent:0%"
+    "\u0440\u0443\u0447\u043d\u043e\u0435 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435": 0
   },
   {
-    "docker": "count:1, percent:0%"
+    "\u043c\u0430\u043d\u0443\u0430\u043b\u044c\u043d\u043e\u0435 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435": 0
   },
   {
-    "Fastapi": "count:1, percent:0%"
+    "CI/CD": 0
   },
   {
-    "SQLAlchemy": "count:1, percent:0%"
+    "C#": 0
   },
   {
-    "Pydantic": "count:1, percent:0%"
+    "DevTools": 0
   },
   {
-    "pytest": "count:1, percent:0%"
+    "\u0422\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 UI": 0
   },
   {
-    "Swagger": "count:1, percent:0%"
+    "\u0410\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0441\u043a\u043b\u0430\u0434 \u0443\u043c\u0430": 0
   },
   {
-    "Atlassian Confluence": "count:1, percent:0%"
+    "PostgreSQL": 0
   },
   {
-    "Bitbucket": "count:1, percent:0%"
+    "grpc": 0
   },
   {
-    "gunicorn": "count:1, percent:0%"
+    "\u0410\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 Windows": 0
   },
   {
-    "\u042d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0435 \u043f\u0440\u0438\u043d\u044f\u0442\u0438\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u0439": "count:1, percent:0%"
+    "\u0420\u0443\u0447\u043d\u043e\u0435 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0434\u0435\u0441\u043a\u0442\u043e\u043f\u043d\u044b\u0445 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439": 0
   },
   {
-    "\u0423\u043c\u0435\u043d\u0438\u0435 \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u0432 \u043a\u043e\u043b\u043b\u0435\u043a\u0442\u0438\u0432\u0435": "count:1, percent:0%"
+    "\u0411\u0438\u0437\u043d\u0435\u0441-\u0430\u043d\u0430\u043b\u0438\u0437": 0
   },
   {
-    "Rest API": "count:1, percent:0%"
+    "Selenium IDE": 0
   },
   {
-    "Django ORM": "count:1, percent:0%"
+    "\u0430\u0432\u0442\u043e\u0442\u0435\u0441\u0442\u044b": 0
   },
   {
-    "Stream Processing": "count:1, percent:0%"
+    "UI": 0
   },
   {
-    "\u0441\u0435\u0442\u0438": "count:1, percent:0%"
+    "\u0432\u0435\u0431\u0441\u0435\u0440\u0432\u0438\u0441\u044b": 0
   },
   {
-    "Unix": "count:1, percent:0%"
+    "Testing": 0
   },
   {
-    "Kanban": "count:1, percent:0%"
+    "Test design": 0
   },
   {
-    "gRPC": "count:1, percent:0%"
+    "Figma": 0
   },
   {
-    "Elasticsearch": "count:1, percent:0%"
+    "REST\\SOAP API": 0
   },
   {
-    "InfluxDB": "count:1, percent:0%"
+    "SDLC": 0
   },
   {
-    "Jenkins": "count:1, percent:0%"
+    "GameDev": 0
   },
   {
-    "\u041f\u043e\u0434\u0431\u043e\u0440 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0430": "count:1, percent:0%"
+    "\u0410\u0443\u0434\u0438\u0442 \u043f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a\u043e\u0432": 0
   },
   {
-    "\u0418\u043d\u0442\u0435\u0440\u0432\u044c\u044e\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435": "count:1, percent:0%"
+    "HACCP": 0
   },
   {
-    "\u0413\u0440\u0430\u043c\u043e\u0442\u043d\u0430\u044f \u0440\u0435\u0447\u044c": "count:1, percent:0%"
+    "\u0421\u041c\u041a": 0
   },
   {
-    "FastApi": "count:1, percent:0%"
+    "\u041f\u0438\u0449\u0435\u0432\u0430\u044f \u043f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0441\u0442\u044c": 0
   },
   {
-    "Data analyst": "count:1, percent:0%"
+    "POSTMAN": 0
   },
   {
-    "\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c": "count:1, percent:0%"
+    "SOAPUI": 0
   },
   {
-    "Machine Learning": "count:1, percent:0%"
+    "ORACLE": 0
   },
   {
-    "MLOPS": "count:1, percent:0%"
+    "MS SQL Server": 0
   },
   {
-    "SaaS": "count:1, percent:0%"
+    "\u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439": 0
   },
   {
-    "HTML5": "count:1, percent:0%"
+    "Oracle Pl/SQL": 0
   },
   {
-    "CSS3": "count:1, percent:0%"
+    "\u0426\u0424\u0422": 0
   },
   {
-    "Hadoop": "count:1, percent:0%"
-  },
-  {
-    "Airlow": "count:1, percent:0%"
-  },
-  {
-    "Informatica Data Qualit": "count:1, percent:0%"
-  },
-  {
-    "\u041d\u0435\u0439\u0440\u043e\u0441\u0435\u0442\u0438": "count:1, percent:0%"
-  },
-  {
-    "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430": "count:1, percent:0%"
-  },
-  {
-    "grafana": "count:1, percent:0%"
-  },
-  {
-    "Pytest": "count:1, percent:0%"
-  },
-  {
-    "Gitlab": "count:1, percent:0%"
-  },
-  {
-    "Golang": "count:1, percent:0%"
-  },
-  {
-    "Selenium": "count:1, percent:0%"
-  },
-  {
-    "\u0422\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435": "count:1, percent:0%"
-  },
-  {
-    "QA": "count:1, percent:0%"
-  },
-  {
-    "\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f": "count:1, percent:0%"
-  },
-  {
-    "Test case": "count:1, percent:0%"
-  },
-  {
-    "Elastic Search": "count:1, percent:0%"
-  },
-  {
-    "SQLite": "count:1, percent:0%"
-  },
-  {
-    "Clickhouse": "count:1, percent:0%"
-  },
-  {
-    "Hive": "count:1, percent:0%"
-  },
-  {
-    "\u0422\u043e\u0440\u0433\u043e\u0432\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u043a\u0430": "count:1, percent:0%"
-  },
-  {
-    "IT": "count:1, percent:0%"
-  },
-  {
-    "DevOps": "count:1, percent:0%"
-  },
-  {
-    "Memcached": "count:1, percent:0%"
-  },
-  {
-    "OpenAPI": "count:1, percent:0%"
-  },
-  {
-    "SwaggerUI": "count:1, percent:0%"
-  },
-  {
-    "Agile": "count:1, percent:0%"
-  },
-  {
-    "\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435": "count:1, percent:0%"
-  },
-  {
-    "Qt": "count:1, percent:0%"
-  },
-  {
-    "PyQt": "count:1, percent:0%"
-  },
-  {
-    "PySide": "count:1, percent:0%"
-  },
-  {
-    "Airflow": "count:1, percent:0%"
-  },
-  {
-    "CI": "count:1, percent:0%"
-  },
-  {
-    "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u041f\u041e": "count:1, percent:0%"
-  },
-  {
-    "backend": "count:1, percent:0%"
-  },
-  {
-    "SQL Server": "count:1, percent:0%"
-  },
-  {
-    "\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0430\u043d\u0430\u043b\u0438\u0437": "count:1, percent:0%"
-  },
-  {
-    "\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430": "count:1, percent:0%"
-  },
-  {
-    "Allure TestOps": "count:1, percent:0%"
-  },
-  {
-    "K8s": "count:1, percent:0%"
-  },
-  {
-    "PyTest": "count:1, percent:0%"
+    "Pl/PLUS": 0
   }
 ]
