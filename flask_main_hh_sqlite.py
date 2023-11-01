@@ -2,7 +2,7 @@ from flask import Flask, render_template, request,redirect,session
 from function import read_date_table
 import os
 
-import requests_hh
+import requests_hh_sqlite
 
 app = Flask(__name__)
 app.secret_key = 'my_secret_key'
@@ -17,7 +17,7 @@ def input():
     if request.method == 'POST':
         text = request.form['input_text']
         session["text"] = text
-        requests_hh.main(text.lower())
+        requests_hh_sqlite.main(text.lower())
         return redirect('/results/')
     else:
         return render_template('search_form.html')
