@@ -3,10 +3,11 @@ import json
 import os
 import datetime
 
-
+# через запросы sqlite_____________________________________________________________________________
 def main(key_words):
     from function import getPage, getVacancies_ID, skills_statistic, check_time_delta
     from function import create_data_base, create_table_sqlite, insert_date_table, read_date_table
+
 
     # ищем вакансии по заданным параметрам и записываем результат в базу данных
     DOMAIN = 'https://api.hh.ru/'
@@ -31,24 +32,28 @@ def main(key_words):
                                     FOREIGN KEY (key_skills_id) REFERENCES key_skills (id),
                                     PRIMARY KEY (vacancies_id,key_skills_id) );'''
     create_table_sqlite('hh_parsing.db', query_table3)
+
     # добавляем данные в таблицы
     vacancy_name = []
     vacancy_name.append(key_words)
-    insert_query1 = """INSERT OR IGNORE INTO vacancy 
+    insert_query1 = """INSERT OR IGNORE INTO vacancy
                                   (name_vacancies)
                                   VALUES (?);"""
     insert_date_table('hh_parsing.db', insert_query1, vacancy_name)
+
     # узнаем id vacancy
     qury_select1 = """SELECT * from vacancy"""
     data_vacancy = read_date_table('hh_parsing.db', qury_select1)
     data_vacancy = dict(data_vacancy)
     print(data_vacancy)
     vacancies_id = data_vacancy[key_words]
+
     # запрос из бд итоговой таблицы
     qury_select3 = """SELECT k.name_skills, vk.statistics from vacancy v, key_skills k, vacancy_key_skills vk WHERE vk.vacancies_id=v.id and
      vk.key_skills_id=k.id and v.id=? ORDER BY statistics DESC"""
     result_list_skills = []
     result_list_skills = read_date_table('hh_parsing.db', qury_select3, [vacancies_id])
+
     # делаем запрос из итоговой таблицы по столбцу key_skills_id столбец date_recording
     qury_select4 = """SELECT vk.date_recording from vacancy v, vacancy_key_skills vk WHERE vk.vacancies_id=v.id and v.id=?"""
     list_time = read_date_table('hh_parsing.db', qury_select4, [vacancies_id])
@@ -115,10 +120,19 @@ def main(key_words):
     return result_list_skills
 
 
+
+
+
 if __name__ == '__main__':
     key_words = input('Введите вакансию по которой будем искать навыки: ')
     data_list = main(key_words)
     pprint.pprint(data_list)
+
+
+
+
+
+
 
 
 
